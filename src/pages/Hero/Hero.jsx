@@ -41,10 +41,10 @@ const GridBackground = () => {
   );
 };
 const handleResume = () => {
-  window.open("/Resume.pdf", "_blank");
+  window.open("/Kathirvel N -developer.pdf", );
 
   const link = document.createElement("a");
-  link.href = "/Resume.pdf";
+  link.href = "/Kathirvel N -developer.pdf";
   link.download = "Kathir Resume.pdf";
   document.body.appendChild(link);
   link.click();
